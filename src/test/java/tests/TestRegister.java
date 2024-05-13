@@ -27,12 +27,10 @@ public class TestRegister extends BaseTest {
 
         locators = new Locators();
 
-
         html = new ExtentSparkReporter("test-output/report.html");
         report = new ExtentReports();
         report.attachReporter(html);
         test = report.createTest("Test 1", "Odev4_AutomationExercises");
-
 
         test.info("Odev 4 un 14,16, ve 18. stepleri tekrar kontrol edilecek");
         test.log(Status.WARNING, "Warning");
