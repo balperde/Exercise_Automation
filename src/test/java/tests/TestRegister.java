@@ -71,7 +71,6 @@ public class TestRegister extends BaseTest {
 //        12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
 //        13. Click 'Create Account button'
 
-
         locators.eGender.click();
         locators.eAccountPassword.sendKeys(faker.internet().password());
 
@@ -81,7 +80,6 @@ public class TestRegister extends BaseTest {
 
         clickByJS(locators.eCheckBoxes1);
         clickByJS(locators.eCheckBoxes2);
-
 
         locators.eFirstName.sendKeys(faker.name().firstName());
         locators.eLastName.sendKeys(faker.name().lastName());
@@ -109,7 +107,6 @@ public class TestRegister extends BaseTest {
 //        18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
 
         clickByJS(locators.lContinue);
-
 
 
 //           verifyAccountDeleted();
