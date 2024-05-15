@@ -15,8 +15,6 @@ public class Locators {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-
-
     @FindBy(xpath = "//a[@href='/login']")
     WebElement eSignUpLogin;
 
@@ -73,11 +71,6 @@ public class Locators {
     By lZipcode = By.xpath("//input[@data-qa='zipcode']");
     By lMobileNumber= By.xpath("//input[@data-qa='mobile_number']");
     By lContinue = By.xpath("//a[text()='Continue']");
-
-
-
-
-
 
 
 
