@@ -60,7 +60,6 @@ public class TestRegister extends BaseTest {
         locators.eSignUpEmail.sendKeys(faker.internet().emailAddress());
         locators.eSignUpButton.click();
 
-
 //        8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
 
         verifyEnterAccountInformationVisible();
@@ -118,8 +117,6 @@ public class TestRegister extends BaseTest {
         report.setSystemInfo("Directory", System.getProperty("user.dir"));
         report.setSystemInfo("Date Time", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy HH.mm.ss")));
         report.flush();
-
-
 
     }
 
