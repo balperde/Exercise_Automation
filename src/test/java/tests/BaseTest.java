@@ -24,7 +24,6 @@ import java.time.format.DateTimeFormatter;
 public class BaseTest {
 
     protected WebDriver driver;
-
     protected WebDriverWait wait;
 
 
@@ -36,7 +35,6 @@ public class BaseTest {
         wait=new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-
     @AfterTest
     public void tearDown(){
         driver.quit();
@@ -46,7 +44,6 @@ public class BaseTest {
         WebElement verifyHomePage = driver.findElement(By.xpath("//img[@alt='Website for automation practice']"));
         Assert.assertTrue(verifyHomePage.isDisplayed(), "Home page is not visible.");
     }
-
 
     public void verifyNewUserSignUpVisible() {
         WebElement verifyNewUser = driver.findElement(By.xpath("//h2[text()='New User Signup!']"));
@@ -73,7 +70,6 @@ public class BaseTest {
         Assert.assertTrue(verifyInformation3.isDisplayed(), "'ACCOUNT DELETED!' is not visible.");
     }
 
-
     public void sendKeys(By locator, CharSequence...text){
         WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         element.clear();
@@ -84,7 +80,6 @@ public class BaseTest {
 
         new Actions(driver).scrollToElement(element).perform();
     }
-
 
     public void clickToElement(WebElement element){
         scrollToElement(element);
@@ -136,8 +131,6 @@ public class BaseTest {
 
     public void selectHobby(String... hobbies) {
         String locator = "//div[./label[contains(., '%s')]]//input";
-
-
         for (String hobby : hobbies) {
 
             clickByJS(By.xpath(String.format(locator, hobby)));
