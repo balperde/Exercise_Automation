@@ -26,7 +26,6 @@ public class BaseTest {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
-
     @BeforeTest
     @Parameters({"browser"})
     public void setup(@Optional("chrome") String browser){
@@ -126,15 +125,12 @@ public class BaseTest {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     public void selectHobby(String... hobbies) {
         String locator = "//div[./label[contains(., '%s')]]//input";
         for (String hobby : hobbies) {
-
             clickByJS(By.xpath(String.format(locator, hobby)));
-
         }
     }
 }
