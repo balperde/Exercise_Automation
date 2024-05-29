@@ -116,7 +116,6 @@ public class BaseTest {
             sourceFile = element.getScreenshotAs(OutputType.FILE);
         else
             sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-
         String now = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
         String name = fileName + "_" + now + ".png";
         targetFile = new File("screenshots/" + name);
