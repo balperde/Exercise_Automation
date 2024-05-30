@@ -10,7 +10,6 @@ public class Driver {
     private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
 
     public static WebDriver getDriver(){
-
         return getDriver("Chrome");
     }
 
