@@ -37,6 +37,5 @@ public class Driver {
             driver.set(null);
         }
     }
-
 }
 
