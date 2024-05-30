@@ -118,6 +118,4 @@ public class TestRegister extends BaseTest {
         report.flush();
 
     }
-
-
 }
