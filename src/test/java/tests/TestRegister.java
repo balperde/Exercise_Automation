@@ -16,7 +16,6 @@ import java.time.format.DateTimeFormatter;
 
 public class TestRegister extends BaseTest {
 
-
     Locators locators;
     ExtentSparkReporter html;
     ExtentReports report;
