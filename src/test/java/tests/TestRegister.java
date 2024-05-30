@@ -107,7 +107,6 @@ public class TestRegister extends BaseTest {
 
         clickByJS(locators.lContinue);
 
-
 //           verifyAccountDeleted();
 //        clickByJS(locators.eAccountDeleted);
 //        verifyLoggedInAsUsername();
