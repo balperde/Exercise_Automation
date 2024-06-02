@@ -114,6 +114,5 @@ public class TestRegister extends BaseTest {
         report.setSystemInfo("Directory", System.getProperty("user.dir"));
         report.setSystemInfo("Date Time", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy HH.mm.ss")));
         report.flush();
-
     }
 }
