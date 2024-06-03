@@ -56,7 +56,6 @@ public class Locators {
 
     @FindBy(xpath = "//select[@id='country']")
     WebElement eSelectCountry;
-
     @FindBy(xpath = "//button[@data-qa='create-account']")
     WebElement eCreateAccount;
     @FindBy(xpath = "//a[@href='/delete_account']")
