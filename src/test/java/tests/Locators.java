@@ -53,7 +53,6 @@ public class Locators {
 
     @FindBy(xpath = "//label[text()='Receive special offers from our partners!']")
     WebElement eCheckBoxes2;
-
     @FindBy(xpath = "//select[@id='country']")
     WebElement eSelectCountry;
     @FindBy(xpath = "//button[@data-qa='create-account']")
