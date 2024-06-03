@@ -59,7 +59,6 @@ public class Locators {
 
     @FindBy(xpath = "//button[@data-qa='create-account']")
     WebElement eCreateAccount;
-
     @FindBy(xpath = "//a[@href='/delete_account']")
     public WebElement eAccountDeleted;
 
