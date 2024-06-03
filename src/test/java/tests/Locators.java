@@ -41,10 +41,8 @@ public class Locators {
 
     @FindBy(xpath = "//select[@name='days']")
     WebElement eSelectDays;
-
     @FindBy(xpath = "//select[@name='months']")
     WebElement eSelectMonths;
-
     @FindBy(xpath = "//select[@name='years']")
     WebElement eSelectYears;
     @FindBy(xpath = "//label[text()='Sign up for our newsletter!']")
