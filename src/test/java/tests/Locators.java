@@ -26,7 +26,6 @@ public class Locators {
 
     @FindBy(xpath = "//button[text()='Signup']")
     WebElement eSignUpButton;
-
     @FindBy(css = "#id_gender1")
     WebElement eGender;
     @FindBy(xpath = "//input[@data-qa='password']")
