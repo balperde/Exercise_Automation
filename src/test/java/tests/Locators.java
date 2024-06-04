@@ -32,7 +32,6 @@ public class Locators {
 
     @FindBy(xpath = "//input[@data-qa='password']")
     WebElement eAccountPassword;
-
     @FindBy(xpath = "//input[@data-qa='first_name']")
     WebElement eFirstName;
     @FindBy(xpath = "//input[@data-qa='last_name']")
