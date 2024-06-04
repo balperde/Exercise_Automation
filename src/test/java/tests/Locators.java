@@ -23,7 +23,6 @@ public class Locators {
 
     @FindBy(xpath = "(//input[@placeholder='Email Address'])[2]")
     WebElement eSignUpEmail;
-
     @FindBy(xpath = "//button[text()='Signup']")
     WebElement eSignUpButton;
     @FindBy(css = "#id_gender1")
