@@ -17,7 +17,6 @@ public class Locators {
 
     @FindBy(xpath = "//a[@href='/login']")
     WebElement eSignUpLogin;
-
     @FindBy(xpath = "//input[@placeholder='Name']")
     WebElement eSignUpName;
     @FindBy(xpath = "(//input[@placeholder='Email Address'])[2]")
