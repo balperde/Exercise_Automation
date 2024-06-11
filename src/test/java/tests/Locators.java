@@ -48,6 +48,8 @@ public class Locators {
     @FindBy(xpath = "//a[@href='/delete_account']")
     public WebElement eAccountDeleted;
 
+
+
     By lCompany = By.xpath("//input[@id='company']");
     By lAddress1 = By.xpath("//input[@id='address1']");
     By lAddress2 = By.xpath("//input[@id='address2']");
