@@ -51,6 +51,8 @@ public class Locators {
 
 
 
+
+
     By lCompany = By.xpath("//input[@id='company']");
     By lAddress1 = By.xpath("//input[@id='address1']");
     By lAddress2 = By.xpath("//input[@id='address2']");
@@ -59,6 +61,8 @@ public class Locators {
     By lZipcode = By.xpath("//input[@data-qa='zipcode']");
     By lMobileNumber= By.xpath("//input[@data-qa='mobile_number']");
     By lContinue = By.xpath("//a[text()='Continue']");
+
+
 
 
 
