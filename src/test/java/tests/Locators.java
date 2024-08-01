@@ -58,4 +58,5 @@ public class Locators {
     By lContinue = By.xpath("//a[text()='Continue']");
 
 
+
 }
