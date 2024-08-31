@@ -57,6 +57,4 @@ public class Locators {
     By lMobileNumber= By.xpath("//input[@data-qa='mobile_number']");
     By lContinue = By.xpath("//a[text()='Continue']");
 
-
-
 }
