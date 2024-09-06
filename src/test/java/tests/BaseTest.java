@@ -94,10 +94,14 @@ public class BaseTest {
         new Actions(driver).scrollToElement(element).moveToElement(element).click().perform();
     }
 
+
+
     public void clickByJS(WebElement element){
         JavascriptExecutor js=(JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", element);
     }
+
+
 
     public void clickByJS(By locator){
         WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
