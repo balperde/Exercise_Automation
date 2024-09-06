@@ -118,6 +118,8 @@ public class BaseTest {
 
 
 
+
+
     public void takeScreenShot(String fileName, WebElement element){
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File sourceFile, targetFile;
