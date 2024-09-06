@@ -109,6 +109,9 @@ public class BaseTest {
         takeScreenShot(fileName, null);
     }
 
+
+
+
     public void takeScreenShot(String fileName, WebElement element){
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File sourceFile, targetFile;
