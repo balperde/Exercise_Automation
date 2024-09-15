@@ -108,6 +108,8 @@ public class BaseTest {
 
 
 
+
+
     public void clickByJS(By locator){
         WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         JavascriptExecutor js=(JavascriptExecutor) driver;
