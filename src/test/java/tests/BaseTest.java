@@ -137,10 +137,6 @@ public class BaseTest {
 
 
 
-    
-
-
-
 
     public void selectHobby(String... hobbies) {
         String locator = "//div[./label[contains(., '%s')]]//input";
